@@ -1,6 +1,6 @@
 {
   "name": "@teotsi/unfold-ckeditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CKEditor build used on the Unfold project",
   "keywords": [
     "ckeditor5-build",
