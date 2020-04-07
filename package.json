@@ -1,7 +1,7 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "18.0.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "name": "@teotsi/unfold-ckeditor",
+  "version": "1.0.0",
+  "description": "A CKEditor build used on the Unfold project",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -15,8 +15,6 @@
     "editing",
     "operational transformation",
     "ot",
-    "collaboration",
-    "collaborative",
     "real-time",
     "framework"
   ],
@@ -67,11 +65,11 @@
   },
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://ckeditor.com/ckeditor-5",
+  "homepage": "https://github.com/teotsi/unfold-ckeditor",
   "bugs": "https://github.com/ckeditor/ckeditor5/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
+    "url": "https://github.com/teotsi/unfold-ckeditor.git"
   },
   "scripts": {
     "build": "webpack --mode production",
