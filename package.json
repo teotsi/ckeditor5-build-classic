@@ -63,10 +63,10 @@
     "node": ">=8.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "CKSource (http://cksource.com/)",
+  "author": "Unfold team",
   "license": "GPL-2.0-or-later",
   "homepage": "https://github.com/teotsi/unfold-ckeditor",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "bugs": "https://github.com/teotsi/unfold-ckeditor/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/teotsi/unfold-ckeditor.git"
