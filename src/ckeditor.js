@@ -26,15 +26,17 @@ import List from '@ckeditor/ckeditor5-list/src/list';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
-import Table from '@ckeditor/ckeditor5-table/src/table';
-import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
+import StoryForm from 'ckeditor-story-forms/story-form/storyForm';
+import Table from 'ckeditor5-chat/src/table';
+import TableToolbar from 'ckeditor5-chat/src/tabletoolbar';
 
-export default class ClassicEditor extends ClassicEditorBase {}
+
+export default class UnfoldEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
-ClassicEditor.builtinPlugins = [
+UnfoldEditor.builtinPlugins = [
 	Essentials,
 	UploadAdapter,
 	Autoformat,
@@ -58,11 +60,12 @@ ClassicEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	TextTransformation,
-	Mention
+	Mention,
+	StoryForm
 ];
 
 // Editor configuration.
-ClassicEditor.defaultConfig = {
+UnfoldEditor.defaultConfig = {
 	toolbar: {
 		items: [
 			'heading',
@@ -81,7 +84,8 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-			'redo'
+			'redo',
+			'storyForm'
 		]
 	},
 	image: {
