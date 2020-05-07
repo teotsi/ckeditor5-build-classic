@@ -1,6 +1,6 @@
 {
   "name": "@teotsi/unfold-ckeditor",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A CKEditor build used on the Unfold project",
   "keywords": [
     "ckeditor5-build",
@@ -47,7 +47,7 @@
     "@ckeditor/ckeditor5-table": "^18.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^18.0.0",
     "@ckeditor/ckeditor5-typing": "^18.0.0",
-    "ckeditor-story-forms": "0.0.1",
+    "ckeditor-story-forms": "^1.0.1",
     "ckeditor5-chat": "^1.0.1",
     "eslint": "^5.5.0",
     "eslint-config-ckeditor5": "^2.0.0",
