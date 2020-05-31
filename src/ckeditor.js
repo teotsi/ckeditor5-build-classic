@@ -31,7 +31,7 @@ import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 import StoryForm from 'ckeditor-story-forms/story-form/storyForm';
 import Table from 'ckeditor5-chat/src/table';
 import TableToolbar from 'ckeditor5-chat/src/tabletoolbar';
-
+import Font from '@ckeditor/ckeditor5-font/src/font';
 
 export default class UnfoldEditor extends ClassicEditorBase {}
 
@@ -46,6 +46,7 @@ UnfoldEditor.builtinPlugins = [
 	CKFinder,
 	EasyImage,
 	Heading,
+	Font,
 	Image,
 	ImageCaption,
 	ImageStyle,
@@ -70,6 +71,9 @@ UnfoldEditor.defaultConfig = {
 		items: [
 			'heading',
 			'|',
+			'fontSize',
+			'fontFamily',
+			'fontBackgroundColor',
 			'bold',
 			'italic',
 			'link',
@@ -101,6 +105,20 @@ UnfoldEditor.defaultConfig = {
 			'tableColumn',
 			'tableRow',
 			'mergeTableCells'
+		]
+	},
+	fontFamily:{
+		options: [
+			'default',
+			'Arial, Helvetica, sans-serif',
+			'Courier New, Courier, monospace',
+			'Times New Roman, Times, serif',
+			'Verdana, Geneva, sans-serif',
+			'Consolas, serif',
+			'Zilla Slab, serif',
+			'Amatic SC, sans-serif',
+			'Kalam, sans-serif',
+			'Chelsea Market, sans-serif'
 		]
 	},
 	mention: {

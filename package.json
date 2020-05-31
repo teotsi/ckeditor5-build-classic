@@ -1,6 +1,6 @@
 {
   "name": "@teotsi/unfold-ckeditor",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A CKEditor build used on the Unfold project",
   "keywords": [
     "ckeditor5-build",
@@ -78,5 +78,8 @@
     "build": "webpack --mode production",
     "lint": "eslint --quiet '**/*.js'",
     "preversion": "npm run build; if [ -n \"$(git status src/ckeditor.js build/ --porcelain)\" ]; then git add -u src/ckeditor.js build/ && git commit -m 'Internal: Build.'; fi"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-font": "^18.0.0"
   }
 }
